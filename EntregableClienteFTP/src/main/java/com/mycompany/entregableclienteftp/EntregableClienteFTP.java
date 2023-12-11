@@ -72,7 +72,6 @@ public class EntregableClienteFTP {
             } else {
                 System.out.println("Login Incorrecto...");
                 cliente.disconnect();
-                System.exit(1);
             }
         } catch (IOException ioe) {
             ioe.printStackTrace();
